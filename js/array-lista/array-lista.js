@@ -22,8 +22,9 @@ for (let i = 0; i < refrigerator.length; i++) {
         flag = true;
     };
 };
-if (flag) {
-    console.log('Trovato! Devo solo preparare il cocktail.');
-} else {
-    console.log('Oh no, devo uscire a comprare il cocomero!');
-}
+// if (flag) {
+//     console.log('Trovato! Devo solo preparare il cocktail.');
+// } else {
+//     console.log('Oh no, devo uscire a comprare il cocomero!');
+// }
+flag ? console.log('Trovato! Devo solo preparare il cocktail.') : console.log('Oh no, devo uscire a comprare il cocomero!');
