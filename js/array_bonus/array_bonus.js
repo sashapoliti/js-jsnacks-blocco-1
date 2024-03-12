@@ -3,7 +3,11 @@ const arrayTwo = [1, 2, 3];
 let subLength = arrayOne.length - arrayTwo.length;
 
 if (subLength > 0) {
-
+    for (let i = 0; i < subLength; i++) {
+        arrayTwo.push(getRndInteger(1, 10));
+    };
+    console.log(arrayOne);
+    console.log(arrayTwo);
 } else if (subLength < 0) {
 
 } else {
