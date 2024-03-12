@@ -1,4 +1,4 @@
-let refrigerator = [
+const refrigerator = [
     'banana',
     'mela',
     'pera',
@@ -9,3 +9,7 @@ let refrigerator = [
     'limone',
     'fragola'
 ];
+const table = 'pesca';
+
+refrigerator.push(table);
+console.log(refrigerator);
