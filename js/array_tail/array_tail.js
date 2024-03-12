@@ -6,3 +6,7 @@ for (let i = 0; i < arrayNumber; i++) {
     numbers.push(randomNumber);
 };
 console.log(numbers);
+
+for (let i = numbers.length - 1; i >= (numbers.length - 1) - 4; i--) {
+    console.log(numbers[i]);
+};
